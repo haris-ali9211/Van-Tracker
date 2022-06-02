@@ -6,15 +6,15 @@ function App() {
 
   
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "googlekey",
-    // libraries: ["places"],
+    googleMapsApiKey: "",
+    libraries: ["places"],
     });
 
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <>
       <Map />
-      helo
+      
       {/* helo */}
     </>
   )
